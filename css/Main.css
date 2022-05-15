@@ -56,37 +56,33 @@ nav{
     display: flex;
     flex-direction: column;
     margin-top: 48px;
-    height: 500px;
     background-color: #242424;
 }
-.portfolio{
-    display: flex;
-    flex-direction: column;
-    height: 750px;
-    background-color: #4b4b4b; 
-}
+
 .skills{
     display: inine-block;
-    height: 500px;
     background-color: #242424;
+	padding-bottom: 50px;
 }
 .skills h4{
 	padding-top: 60px; 
 	text-align:center;
-    margin: 0 auto;
     color: #b8b8b8;
     font-size: 30px;
 }
 .skills div{
+	margin: 0 auto;
 	display: flex;
+	margin-bottom: 50px;
 }
 .skills ul{
 	margin: 0 auto;
     color: #b8b8b8;
     margin-top: 90px;
-	text-align: justify;
 	list-style-type: none;
+
 }
+
 ul li h3{
 	margin-bottom: 10px;
 }
@@ -127,8 +123,17 @@ ul li h3{
     margin-top: 20px;
     margin-left: 30%;
     margin-right: 30%;
+	margin-bottom: 50px;
     text-align: justify;
 }
+
+.portfolio{
+    display: flex;
+    flex-direction: column;
+    background-color: #4b4b4b; 
+	text-align:center;
+}
+
 .portfolio h4{
     margin: 0 auto;
     color: #b8b8b8;
@@ -137,21 +142,21 @@ ul li h3{
 }
 .portfolio__box {
     display: flex;
+	text-align: center;
 }
 .portfolio__box div{
-    display: block;
+	margin: 0 auto;
+    display: flex;
     background-color: #b8b8b8;
     margin-top: 50px;
     margin-bottom: 30px;
-    margin-left: auto;
-    margin-right: auto;
-    width: 20%;
-    height: 500px;
     text-align: center;
 }
 .portfolio_img{
     width:100%;
     height:100%;
+
+	text-align: center;
 }
 .about__portfolio{
     display: block;
@@ -161,6 +166,8 @@ ul li h3{
     background-color: #242424;
     border: none;
     outline:none;
+	margin-bottom: 50px;
+	margin-top: 50px;
 }
 .about__portfolio:hover{
     background: #1c1c1c;
@@ -173,15 +180,7 @@ ul li h3{
     font-size: 20px;
     font-family: 'Pixel', sans-serif;
 }
-.cs1{
-    display: none;
-}
-.cs2{
-    display: none;
-}
-.cs3{
-    display: none; 
-}
+
 
 
 
@@ -218,6 +217,38 @@ ul li h3{
         display: block;
         text-align: left;
     }
+	.portfolio__box {
+		display: block;
+		text-align: center;
+		margin: 0 auto;
+	}
+	.portfolio_img{
+		margin: 0 auto;
+
+		text-align: center;
+		max-height:600px;
+		max-width:450px;
+	}
+	.about{
+		display: flex;
+		flex-direction: column;
+		margin-top: 48px;
+		background-color: #242424;
+	}
+	.about span {
+		margin-left: 10%;
+		margin-right: 10%;
+
+	}
+	.skills div{
+		margin: 0;
+		display: block;
+		text-align: center;
+	}
+	.skills ul li{
+		text-align: center;
+		margin: 0 auto;
+	}
 }
 
 
