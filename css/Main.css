@@ -66,8 +66,8 @@ nav{
     background-color: #242424;
 	padding-bottom: 50px;
 }
-.skills h4{
-	padding-top: 60px; 
+h4{
+	padding-top: 30px; 
 	text-align:center;
     color: #b8b8b8;
     font-size: 30px;
@@ -103,22 +103,25 @@ ul li h3{
 }
 
 .copyright {
+    padding-top: 15px;
+    padding-bottom: 15px;
     display: block;
-    height: 100px;
     background-color: #242424;
 	text-align: center;
 
 }
 .copyright a{
-	position: relative;
-	top: 50%;
 	color: #b8b8b8;
 	font-size: 28px;
 }
 .about h4{
     margin: 0 auto;
     color: #b8b8b8;
-    margin-top: 130px;
+    font-size: 30px;
+}
+.about h4{
+    margin: 0 auto;
+    color: #b8b8b8;
     font-size: 30px;
 }
 .about span{
@@ -141,7 +144,6 @@ ul li h3{
 .portfolio h4{
     margin: 0 auto;
     color: #b8b8b8;
-    margin-top: 60px;
     font-size: 30px;
 }
 .portfolio__box {
@@ -167,7 +169,7 @@ ul li h3{
     margin: 0 auto;
     width:250px;
     height:40px;
-    background-color: #4b4b4b;
+    background-color: #383838;
     border: none;
     outline:none;
 	margin-bottom: 50px;
